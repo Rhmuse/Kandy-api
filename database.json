@@ -4,121 +4,121 @@
 			"id": 1,
 			"name": "John Doe",
 			"email": "johndoe@example.com",
-			"employee": true
+			"isStaff": true
 		},
 		{
 			"id": 2,
 			"name": "Jane Smith",
 			"email": "janesmith@example.com",
-			"employee": true
+			"isStaff": true
 		},
 		{
 			"id": 3,
 			"name": "David Johnson",
 			"email": "davidjohnson@example.com",
-			"employee": true
+			"isStaff": true
 		},
 		{
 			"id": 4,
 			"name": "Emily Davis",
 			"email": "emilydavis@example.com",
-			"employee": true
+			"isStaff": true
 		},
 		{
 			"id": 5,
 			"name": "Michael Brown",
 			"email": "michaelbrown@example.com",
-			"employee": true
+			"isStaff": true
 		},
 		{
 			"id": 6,
 			"name": "Sarah Wilson",
 			"email": "sarahwilson@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 7,
 			"name": "Matthew Thompson",
 			"email": "matthewthompson@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 8,
 			"name": "Olivia Martinez",
 			"email": "oliviamartinez@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 9,
 			"name": "Daniel Taylor",
 			"email": "danieltaylor@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 10,
 			"name": "Sophia Rodriguez",
 			"email": "sophiarodriguez@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 11,
 			"name": "Ethan Anderson",
 			"email": "ethananderson@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 12,
 			"name": "Isabella Clark",
 			"email": "isabellaclark@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 13,
 			"name": "William Wright",
 			"email": "williamwright@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 14,
 			"name": "Ava Lopez",
 			"email": "avalopez@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 15,
 			"name": "James Lee",
 			"email": "jameslee@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 16,
 			"name": "Mia Harris",
 			"email": "miaharris@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 17,
 			"name": "Benjamin King",
 			"email": "benjaminking@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 18,
 			"name": "Charlotte Scott",
 			"email": "charlottescott@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 19,
 			"name": "Alexander Green",
 			"email": "alexandergreen@example.com",
-			"employee": false
+			"isStaff": false
 		},
 		{
 			"id": 20,
 			"name": "Emma Baker",
 			"email": "emmabaker@example.com",
-			"employee": false
+			"isStaff": false
 		}
 	],
 	"customers": [
