@@ -1,0 +1,660 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "John Doe",
+			"email": "johndoe@example.com",
+			"employee": true
+		},
+		{
+			"id": 2,
+			"name": "Jane Smith",
+			"email": "janesmith@example.com",
+			"employee": true
+		},
+		{
+			"id": 3,
+			"name": "David Johnson",
+			"email": "davidjohnson@example.com",
+			"employee": true
+		},
+		{
+			"id": 4,
+			"name": "Emily Davis",
+			"email": "emilydavis@example.com",
+			"employee": true
+		},
+		{
+			"id": 5,
+			"name": "Michael Brown",
+			"email": "michaelbrown@example.com",
+			"employee": true
+		},
+		{
+			"id": 6,
+			"name": "Sarah Wilson",
+			"email": "sarahwilson@example.com",
+			"employee": false
+		},
+		{
+			"id": 7,
+			"name": "Matthew Thompson",
+			"email": "matthewthompson@example.com",
+			"employee": false
+		},
+		{
+			"id": 8,
+			"name": "Olivia Martinez",
+			"email": "oliviamartinez@example.com",
+			"employee": false
+		},
+		{
+			"id": 9,
+			"name": "Daniel Taylor",
+			"email": "danieltaylor@example.com",
+			"employee": false
+		},
+		{
+			"id": 10,
+			"name": "Sophia Rodriguez",
+			"email": "sophiarodriguez@example.com",
+			"employee": false
+		},
+		{
+			"id": 11,
+			"name": "Ethan Anderson",
+			"email": "ethananderson@example.com",
+			"employee": false
+		},
+		{
+			"id": 12,
+			"name": "Isabella Clark",
+			"email": "isabellaclark@example.com",
+			"employee": false
+		},
+		{
+			"id": 13,
+			"name": "William Wright",
+			"email": "williamwright@example.com",
+			"employee": false
+		},
+		{
+			"id": 14,
+			"name": "Ava Lopez",
+			"email": "avalopez@example.com",
+			"employee": false
+		},
+		{
+			"id": 15,
+			"name": "James Lee",
+			"email": "jameslee@example.com",
+			"employee": false
+		},
+		{
+			"id": 16,
+			"name": "Mia Harris",
+			"email": "miaharris@example.com",
+			"employee": false
+		},
+		{
+			"id": 17,
+			"name": "Benjamin King",
+			"email": "benjaminking@example.com",
+			"employee": false
+		},
+		{
+			"id": 18,
+			"name": "Charlotte Scott",
+			"email": "charlottescott@example.com",
+			"employee": false
+		},
+		{
+			"id": 19,
+			"name": "Alexander Green",
+			"email": "alexandergreen@example.com",
+			"employee": false
+		},
+		{
+			"id": 20,
+			"name": "Emma Baker",
+			"email": "emmabaker@example.com",
+			"employee": false
+		}
+	],
+	"customers": [
+		{
+			"userId": 6,
+			"loyaltyNumber": 12345
+		},
+		{
+			"userId": 7,
+			"loyaltyNumber": 67890
+		},
+		{
+			"userId": 8,
+			"loyaltyNumber": 13579
+		},
+		{
+			"userId": 9,
+			"loyaltyNumber": 24680
+		},
+		{
+			"userId": 10,
+			"loyaltyNumber": 98765
+		},
+		{
+			"userId": 11,
+			"loyaltyNumber": 54321
+		},
+		{
+			"userId": 12,
+			"loyaltyNumber": 11223
+		},
+		{
+			"userId": 13,
+			"loyaltyNumber": 33445
+		},
+		{
+			"userId": 14,
+			"loyaltyNumber": 55667
+		},
+		{
+			"userId": 15,
+			"loyaltyNumber": 77889
+		},
+		{
+			"userId": 16,
+			"loyaltyNumber": 99000
+		},
+		{
+			"userId": 17,
+			"loyaltyNumber": 88877
+		},
+		{
+			"userId": 18,
+			"loyaltyNumber": 66655
+		},
+		{
+			"userId": 19,
+			"loyaltyNumber": 44433
+		},
+		{
+			"userId": 20,
+			"loyaltyNumber": 22211
+		}
+	],
+	"employees": [
+		{
+			"startDate": "2023-06-01",
+			"payRate": 20.5,
+			"userId": 1,
+			"assignedStore": 1
+		},
+		{
+			"startDate": "2023-05-15",
+			"payRate": 18.75,
+			"userId": 2,
+			"assignedStore": 2
+		},
+		{
+			"startDate": "2023-06-10",
+			"payRate": 22.0,
+			"userId": 3,
+			"assignedStore": 1
+		},
+		{
+			"startDate": "2023-05-20",
+			"payRate": 19.0,
+			"userId": 4,
+			"assignedStore": 1
+		},
+		{
+			"startDate": "2023-06-15",
+			"payRate": 21.25,
+			"userId": 5,
+			"assignedStore": 2
+		}
+	],
+	"locations": [
+		{
+			"id": 1,
+			"address": "123 Main St",
+			"squareFootage": 2000
+		},
+		{
+			"id": 2,
+			"address": "456 Elm St",
+			"squareFootage": 1500
+		}
+	],
+	"products": [
+		{
+			"id": 1,
+			"name": "Milk Chocolate Bar",
+			"typeId": 1,
+			"price": 2.99
+		},
+		{
+			"id": 2,
+			"name": "Dark Chocolate Truffles",
+			"typeId": 1,
+			"price": 4.99
+		},
+		{
+			"id": 3,
+			"name": "Gummy Bears",
+			"typeId": 2,
+			"price": 1.99
+		},
+		{
+			"id": 4,
+			"name": "Gummy Worms",
+			"typeId": 2,
+			"price": 2.49
+		},
+		{
+			"id": 5,
+			"name": "Hard Candy Assortment",
+			"typeId": 3,
+			"price": 1.49
+		},
+		{
+			"id": 6,
+			"name": "Sour Patch Kids",
+			"typeId": 4,
+			"price": 2.99
+		},
+		{
+			"id": 7,
+			"name": "Licorice Twists",
+			"typeId": 5,
+			"price": 1.99
+		},
+		{
+			"id": 8,
+			"name": "Caramel Chews",
+			"typeId": 6,
+			"price": 2.49
+		},
+		{
+			"id": 9,
+			"name": "White Chocolate Bar",
+			"typeId": 1,
+			"price": 3.99
+		},
+		{
+			"id": 10,
+			"name": "Sour Watermelon Slices",
+			"typeId": 4,
+			"price": 2.99
+		},
+		{
+			"id": 11,
+			"name": "Gummy Peach Rings",
+			"typeId": 2,
+			"price": 2.49
+		},
+		{
+			"id": 12,
+			"name": "Mint Chocolate Bark",
+			"typeId": 1,
+			"price": 3.99
+		},
+		{
+			"id": 13,
+			"name": "Fruit Hard Candy Mix",
+			"typeId": 3,
+			"price": 1.99
+		},
+		{
+			"id": 14,
+			"name": "Sour Belts",
+			"typeId": 4,
+			"price": 2.49
+		},
+		{
+			"id": 15,
+			"name": "Red Licorice Laces",
+			"typeId": 5,
+			"price": 1.99
+		},
+		{
+			"id": 16,
+			"name": "Sea Salt Caramels",
+			"typeId": 6,
+			"price": 3.49
+		},
+		{
+			"id": 17,
+			"name": "Milk Chocolate Covered Almonds",
+			"typeId": 1,
+			"price": 4.99
+		},
+		{
+			"id": 18,
+			"name": "Sour Cherry Bombs",
+			"typeId": 4,
+			"price": 2.99
+		},
+		{
+			"id": 19,
+			"name": "Cola Bottles",
+			"typeId": 2,
+			"price": 1.99
+		},
+		{
+			"id": 20,
+			"name": "Assorted Fudge",
+			"typeId": 1,
+			"price": 5.99
+		},
+		{
+			"id": 21,
+			"name": "Butterscotch Buttons",
+			"typeId": 3,
+			"price": 1.49
+		},
+		{
+			"id": 22,
+			"name": "Sour Apple Rings",
+			"typeId": 4,
+			"price": 2.49
+		},
+		{
+			"id": 23,
+			"name": "Black Licorice Pipes",
+			"typeId": 5,
+			"price": 1.99
+		},
+		{
+			"id": 24,
+			"name": "Chocolate Caramel Pretzels",
+			"typeId": 6,
+			"price": 3.99
+		},
+		{
+			"id": 25,
+			"name": "Dark Chocolate Covered Strawberries",
+			"typeId": 1,
+			"price": 4.99
+		},
+		{
+			"id": 26,
+			"name": "Sour Rainbow Belts",
+			"typeId": 4,
+			"price": 2.99
+		},
+		{
+			"id": 27,
+			"name": "Gummy Sharks",
+			"typeId": 2,
+			"price": 1.99
+		},
+		{
+			"id": 28,
+			"name": "Peppermint Hard Candy",
+			"typeId": 3,
+			"price": 1.49
+		},
+		{
+			"id": 29,
+			"name": "Sour Blue Raspberry Poppers",
+			"typeId": 4,
+			"price": 2.49
+		},
+		{
+			"id": 30,
+			"name": "Rainbow Licorice Whips",
+			"typeId": 5,
+			"price": 1.99
+		},
+		{
+			"id": 31,
+			"name": "Salted Caramel Chocolate Truffles",
+			"typeId": 6,
+			"price": 4.99
+		},
+		{
+			"id": 32,
+			"name": "White Chocolate Covered Pretzels",
+			"typeId": 1,
+			"price": 3.99
+		},
+		{
+			"id": 33,
+			"name": "Sour Lemon Drops",
+			"typeId": 4,
+			"price": 2.99
+		},
+		{
+			"id": 34,
+			"name": "Gummy Cola Bottles",
+			"typeId": 2,
+			"price": 1.99
+		},
+		{
+			"id": 35,
+			"name": "Assorted Taffy",
+			"typeId": 1,
+			"price": 2.99
+		},
+		{
+			"id": 36,
+			"name": "Assorted Fruit Sours",
+			"typeId": 3,
+			"price": 1.99
+		},
+		{
+			"id": 37,
+			"name": "Chocolate Covered Raisins",
+			"typeId": 1,
+			"price": 3.99
+		},
+		{
+			"id": 38,
+			"name": "Sour Gummy Worms",
+			"typeId": 2,
+			"price": 2.49
+		},
+		{
+			"id": 39,
+			"name": "Assorted Jelly Beans",
+			"typeId": 3,
+			"price": 1.99
+		},
+		{
+			"id": 40,
+			"name": "Sour Strawberry Belts",
+			"typeId": 4,
+			"price": 2.49
+		},
+		{
+			"id": 41,
+			"name": "Chewy Caramels",
+			"typeId": 6,
+			"price": 3.49
+		},
+		{
+			"id": 42,
+			"name": "Dark Chocolate Mint Patties",
+			"typeId": 1,
+			"price": 4.99
+		},
+		{
+			"id": 43,
+			"name": "Fruit Gummy Rings",
+			"typeId": 2,
+			"price": 1.99
+		},
+		{
+			"id": 44,
+			"name": "Assorted Lollipops",
+			"typeId": 3,
+			"price": 1.49
+		},
+		{
+			"id": 45,
+			"name": "Sour Grapefruit Slices",
+			"typeId": 4,
+			"price": 2.49
+		},
+		{
+			"id": 46,
+			"name": "Licorice Allsorts",
+			"typeId": 5,
+			"price": 1.99
+		},
+		{
+			"id": 47,
+			"name": "Sea Salt Caramel Truffles",
+			"typeId": 6,
+			"price": 4.99
+		},
+		{
+			"id": 48,
+			"name": "Cookies and Cream White Chocolate",
+			"typeId": 1,
+			"price": 3.99
+		},
+		{
+			"id": 49,
+			"name": "Sour Watermelon Gummies",
+			"typeId": 2,
+			"price": 2.49
+		},
+		{
+			"id": 50,
+			"name": "Assorted Fruit Chews",
+			"typeId": 3,
+			"price": 1.99
+		}
+	],
+	"productTypes": [
+		{
+			"id": 1,
+			"type": "Chocolate"
+		},
+		{
+			"id": 2,
+			"type": "Gummy"
+		},
+		{
+			"id": 3,
+			"type": "Hard Candy"
+		},
+		{
+			"id": 4,
+			"type": "Sour Candy"
+		},
+		{
+			"id": 5,
+			"type": "Licorice"
+		},
+		{
+			"id": 6,
+			"type": "Caramel"
+		}
+	],
+	"purchases": [
+		{
+			"customerId": 11,
+			"productId": 5,
+			"quantity": 3
+		},
+		{
+			"customerId": 15,
+			"productId": 21,
+			"quantity": 2
+		},
+		{
+			"customerId": 9,
+			"productId": 13,
+			"quantity": 4
+		},
+		{
+			"customerId": 18,
+			"productId": 7,
+			"quantity": 1
+		},
+		{
+			"customerId": 14,
+			"productId": 3,
+			"quantity": 2
+		},
+		{
+			"customerId": 20,
+			"productId": 12,
+			"quantity": 3
+		},
+		{
+			"customerId": 6,
+			"productId": 1,
+			"quantity": 2
+		},
+		{
+			"customerId": 10,
+			"productId": 30,
+			"quantity": 4
+		},
+		{
+			"customerId": 17,
+			"productId": 16,
+			"quantity": 1
+		},
+		{
+			"customerId": 11,
+			"productId": 27,
+			"quantity": 2
+		},
+		{
+			"customerId": 16,
+			"productId": 36,
+			"quantity": 3
+		},
+		{
+			"customerId": 12,
+			"productId": 8,
+			"quantity": 2
+		},
+		{
+			"customerId": 10,
+			"productId": 22,
+			"quantity": 1
+		},
+		{
+			"customerId": 6,
+			"productId": 41,
+			"quantity": 4
+		},
+		{
+			"customerId": 14,
+			"productId": 31,
+			"quantity": 3
+		},
+		{
+			"customerId": 19,
+			"productId": 50,
+			"quantity": 2
+		},
+		{
+			"customerId": 17,
+			"productId": 44,
+			"quantity": 1
+		},
+		{
+			"customerId": 13,
+			"productId": 20,
+			"quantity": 3
+		},
+		{
+			"customerId": 11,
+			"productId": 15,
+			"quantity": 2
+		},
+		{
+			"customerId": 19,
+			"productId": 29,
+			"quantity": 1
+		}
+	]
+}
