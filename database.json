@@ -119,100 +119,188 @@
 			"name": "Emma Baker",
 			"email": "emmabaker@example.com",
 			"isStaff": false
+		},
+		{
+			"name": "Kevin",
+			"email": "Kevin@email.com",
+			"isStaff": true,
+			"id": 21
+		},
+		{
+			"name": "Kevin",
+			"email": "Kevin@email.com",
+			"isStaff": true,
+			"id": 22
+		},
+		{
+			"name": "Jeff",
+			"email": "Jeff@email.com",
+			"isStaff": true,
+			"id": 23
+		},
+		{
+			"name": "Jeff",
+			"email": "Jeff@email.com",
+			"isStaff": true,
+			"id": 24
+		},
+		{
+			"name": "Liz",
+			"email": "Liz@email.com",
+			"isStaff": true,
+			"id": 25
+		},
+		{
+			"name": "Frank",
+			"email": "Frank@email.com",
+			"isStaff": true,
+			"id": 26
 		}
 	],
 	"customers": [
 		{
+			"id": 1,
 			"userId": 6,
 			"loyaltyNumber": 12345
 		},
 		{
+			"id": 2,
 			"userId": 7,
 			"loyaltyNumber": 67890
 		},
 		{
+			"id": 3,
 			"userId": 8,
 			"loyaltyNumber": 13579
 		},
 		{
+			"id": 4,
 			"userId": 9,
 			"loyaltyNumber": 24680
 		},
 		{
+			"id": 5,
 			"userId": 10,
 			"loyaltyNumber": 98765
 		},
 		{
+			"id": 6,
 			"userId": 11,
 			"loyaltyNumber": 54321
 		},
 		{
+			"id": 7,
 			"userId": 12,
 			"loyaltyNumber": 11223
 		},
 		{
+			"id": 8,
 			"userId": 13,
 			"loyaltyNumber": 33445
 		},
 		{
+			"id": 9,
 			"userId": 14,
 			"loyaltyNumber": 55667
 		},
 		{
+			"id": 10,
 			"userId": 15,
 			"loyaltyNumber": 77889
 		},
 		{
+			"id": 11,
 			"userId": 16,
 			"loyaltyNumber": 99000
 		},
 		{
+			"id": 12,
 			"userId": 17,
 			"loyaltyNumber": 88877
 		},
 		{
+			"id": 13,
 			"userId": 18,
 			"loyaltyNumber": 66655
 		},
 		{
+			"id": 14,
 			"userId": 19,
 			"loyaltyNumber": 44433
 		},
 		{
+			"id": 15,
 			"userId": 20,
 			"loyaltyNumber": 22211
 		}
 	],
 	"employees": [
 		{
+			"id": 1,
 			"startDate": "2023-06-01",
 			"payRate": 20.5,
 			"userId": 1,
 			"assignedStore": 1
 		},
 		{
+			"id": 2,
 			"startDate": "2023-05-15",
 			"payRate": 18.75,
 			"userId": 2,
 			"assignedStore": 2
 		},
 		{
+			"id": 3,
 			"startDate": "2023-06-10",
-			"payRate": 22.0,
+			"payRate": 22,
 			"userId": 3,
 			"assignedStore": 1
 		},
 		{
+			"id": 4,
 			"startDate": "2023-05-20",
-			"payRate": 19.0,
+			"payRate": 19,
 			"userId": 4,
 			"assignedStore": 1
 		},
 		{
+			"id": 5,
 			"startDate": "2023-06-15",
 			"payRate": 21.25,
 			"userId": 5,
 			"assignedStore": 2
+		},
+		{
+			"payRate": "22.00",
+			"startDate": "2023-07-17",
+			"assignedStore": "2",
+			"id": 6
+		},
+		{
+			"payRate": "12",
+			"startDate": "2023-07-17",
+			"assignedStore": "1",
+			"id": 7
+		},
+		{
+			"payRate": "12",
+			"startDate": "2023-07-17",
+			"assignedStore": "1",
+			"id": 8
+		},
+		{
+			"userId": 25,
+			"payRate": "34",
+			"startDate": "2023-07-16",
+			"assignedStore": "1",
+			"id": 9
+		},
+		{
+			"userId": 26,
+			"payRate": "23",
+			"startDate": "2023-07-18",
+			"assignedStore": "2",
+			"id": 10
 		}
 	],
 	"locations": [
@@ -233,301 +321,301 @@
 		{
 			"id": 1,
 			"name": "Milk Chocolate Bar",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 2.99
 		},
 		{
 			"id": 2,
 			"name": "Dark Chocolate Truffles",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 4.99
 		},
 		{
 			"id": 3,
 			"name": "Gummy Bears",
-			"typeId": 2,
+			"productTypeId": 2,
 			"price": 1.99
 		},
 		{
 			"id": 4,
 			"name": "Gummy Worms",
-			"typeId": 2,
+			"productTypeId": 2,
 			"price": 2.49
 		},
 		{
 			"id": 5,
 			"name": "Hard Candy Assortment",
-			"typeId": 3,
+			"productTypeId": 3,
 			"price": 1.49
 		},
 		{
 			"id": 6,
 			"name": "Sour Patch Kids",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.99
 		},
 		{
 			"id": 7,
 			"name": "Licorice Twists",
-			"typeId": 5,
+			"productTypeId": 5,
 			"price": 1.99
 		},
 		{
 			"id": 8,
 			"name": "Caramel Chews",
-			"typeId": 6,
+			"productTypeId": 6,
 			"price": 2.49
 		},
 		{
 			"id": 9,
 			"name": "White Chocolate Bar",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 3.99
 		},
 		{
 			"id": 10,
 			"name": "Sour Watermelon Slices",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.99
 		},
 		{
 			"id": 11,
 			"name": "Gummy Peach Rings",
-			"typeId": 2,
+			"productTypeId": 2,
 			"price": 2.49
 		},
 		{
 			"id": 12,
 			"name": "Mint Chocolate Bark",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 3.99
 		},
 		{
 			"id": 13,
 			"name": "Fruit Hard Candy Mix",
-			"typeId": 3,
+			"productTypeId": 3,
 			"price": 1.99
 		},
 		{
 			"id": 14,
 			"name": "Sour Belts",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.49
 		},
 		{
 			"id": 15,
 			"name": "Red Licorice Laces",
-			"typeId": 5,
+			"productTypeId": 5,
 			"price": 1.99
 		},
 		{
 			"id": 16,
 			"name": "Sea Salt Caramels",
-			"typeId": 6,
+			"productTypeId": 6,
 			"price": 3.49
 		},
 		{
 			"id": 17,
 			"name": "Milk Chocolate Covered Almonds",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 4.99
 		},
 		{
 			"id": 18,
 			"name": "Sour Cherry Bombs",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.99
 		},
 		{
 			"id": 19,
 			"name": "Cola Bottles",
-			"typeId": 2,
+			"productTypeId": 2,
 			"price": 1.99
 		},
 		{
 			"id": 20,
 			"name": "Assorted Fudge",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 5.99
 		},
 		{
 			"id": 21,
 			"name": "Butterscotch Buttons",
-			"typeId": 3,
+			"productTypeId": 3,
 			"price": 1.49
 		},
 		{
 			"id": 22,
 			"name": "Sour Apple Rings",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.49
 		},
 		{
 			"id": 23,
 			"name": "Black Licorice Pipes",
-			"typeId": 5,
+			"productTypeId": 5,
 			"price": 1.99
 		},
 		{
 			"id": 24,
 			"name": "Chocolate Caramel Pretzels",
-			"typeId": 6,
+			"productTypeId": 6,
 			"price": 3.99
 		},
 		{
 			"id": 25,
 			"name": "Dark Chocolate Covered Strawberries",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 4.99
 		},
 		{
 			"id": 26,
 			"name": "Sour Rainbow Belts",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.99
 		},
 		{
 			"id": 27,
 			"name": "Gummy Sharks",
-			"typeId": 2,
+			"productTypeId": 2,
 			"price": 1.99
 		},
 		{
 			"id": 28,
 			"name": "Peppermint Hard Candy",
-			"typeId": 3,
+			"productTypeId": 3,
 			"price": 1.49
 		},
 		{
 			"id": 29,
 			"name": "Sour Blue Raspberry Poppers",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.49
 		},
 		{
 			"id": 30,
 			"name": "Rainbow Licorice Whips",
-			"typeId": 5,
+			"productTypeId": 5,
 			"price": 1.99
 		},
 		{
 			"id": 31,
 			"name": "Salted Caramel Chocolate Truffles",
-			"typeId": 6,
+			"productTypeId": 6,
 			"price": 4.99
 		},
 		{
 			"id": 32,
 			"name": "White Chocolate Covered Pretzels",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 3.99
 		},
 		{
 			"id": 33,
 			"name": "Sour Lemon Drops",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.99
 		},
 		{
 			"id": 34,
 			"name": "Gummy Cola Bottles",
-			"typeId": 2,
+			"productTypeId": 2,
 			"price": 1.99
 		},
 		{
 			"id": 35,
 			"name": "Assorted Taffy",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 2.99
 		},
 		{
 			"id": 36,
 			"name": "Assorted Fruit Sours",
-			"typeId": 3,
+			"productTypeId": 3,
 			"price": 1.99
 		},
 		{
 			"id": 37,
 			"name": "Chocolate Covered Raisins",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 3.99
 		},
 		{
 			"id": 38,
 			"name": "Sour Gummy Worms",
-			"typeId": 2,
+			"productTypeId": 2,
 			"price": 2.49
 		},
 		{
 			"id": 39,
 			"name": "Assorted Jelly Beans",
-			"typeId": 3,
+			"productTypeId": 3,
 			"price": 1.99
 		},
 		{
 			"id": 40,
 			"name": "Sour Strawberry Belts",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.49
 		},
 		{
 			"id": 41,
 			"name": "Chewy Caramels",
-			"typeId": 6,
+			"productTypeId": 6,
 			"price": 3.49
 		},
 		{
 			"id": 42,
 			"name": "Dark Chocolate Mint Patties",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 4.99
 		},
 		{
 			"id": 43,
 			"name": "Fruit Gummy Rings",
-			"typeId": 2,
+			"productTypeId": 2,
 			"price": 1.99
 		},
 		{
 			"id": 44,
 			"name": "Assorted Lollipops",
-			"typeId": 3,
+			"productTypeId": 3,
 			"price": 1.49
 		},
 		{
 			"id": 45,
 			"name": "Sour Grapefruit Slices",
-			"typeId": 4,
+			"productTypeId": 4,
 			"price": 2.49
 		},
 		{
 			"id": 46,
 			"name": "Licorice Allsorts",
-			"typeId": 5,
+			"productTypeId": 5,
 			"price": 1.99
 		},
 		{
 			"id": 47,
 			"name": "Sea Salt Caramel Truffles",
-			"typeId": 6,
+			"productTypeId": 6,
 			"price": 4.99
 		},
 		{
 			"id": 48,
 			"name": "Cookies and Cream White Chocolate",
-			"typeId": 1,
+			"productTypeId": 1,
 			"price": 3.99
 		},
 		{
 			"id": 49,
 			"name": "Sour Watermelon Gummies",
-			"typeId": 2,
+			"productTypeId": 2,
 			"price": 2.49
 		},
 		{
 			"id": 50,
 			"name": "Assorted Fruit Chews",
-			"typeId": 3,
+			"productTypeId": 3,
 			"price": 1.99
 		}
 	],
